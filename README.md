@@ -11,18 +11,6 @@
 - 轉位時間軸、前後比較、深淺主題及 PNG／SVG 匯出。
 - 按需渲染；閒置時停止重繪。
 
-## 本機執行
-
-這是無需建置的靜態網站，不需要 npm 安裝。
-
-```sh
-git clone https://github.com/johnnydev543/z-plasty.git
-cd z-plasty
-python3 -m http.server 4173 --bind 127.0.0.1 --directory dist
-```
-
-在瀏覽器開啟 <http://127.0.0.1:4173>。請透過 HTTP 伺服器執行，以便載入 JavaScript 模組。
-
 ## 原始碼
 
 - `dist/index.html`：頁面結構。
