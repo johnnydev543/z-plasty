@@ -30,7 +30,6 @@ python3 -m http.server 4173 --bind 127.0.0.1 --directory dist
 - `dist/app.js`：介面、2D 幾何、時間軸與匯出。
 - `dist/scene3d.js`：3D 曲面、皮瓣、柱體形變與尺寸資料。
 - `dist/vendor/`：Three.js 0.180.0 與其 MIT 授權文件。
-- `.openai/hosting.json`：既有 Sites 網站的部署設定。
 
 ## 模型範圍
 
